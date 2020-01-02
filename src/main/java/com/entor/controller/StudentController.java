@@ -26,8 +26,7 @@ public class StudentController {
 		
 	}
 	@RequestMapping("/deleteById")
-	public void deleteById(int id) {
-	
+	public void deleteById(int id) {	
 		studentService.deleteById(id);
 	}
 	@RequestMapping("/queryById")
