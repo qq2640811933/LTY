@@ -30,5 +30,5 @@ public interface StudentMapper {
 	@Select("select * from student")
 	public List<Student> queryAll();
 	
-	public void addMore();
+	public void addMore1();
 }
